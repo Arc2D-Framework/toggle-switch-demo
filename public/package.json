@@ -1,0 +1,27 @@
+{
+    "name": "arc2d",
+    "version": "3.0.0",
+    "description": "",
+    "main": "framework/resources/generators/plopfile.js",
+    "author": "jaysmith024 <jaysmith024@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "http-server ./ -o index.html",
+        "seam": "node --inspect node_modules/od-seam/index.js",
+        "server": "node node_modules/od-server/main.js 3001",
+        "plop": "plop"
+    },
+    "dependencies": {
+        "http-server": "^0.12.3",
+        "kill-port": "^1.6.1",
+        "od-cocoon": "github:Nashorn/od-cocoon#3.0.0",
+        "od-paginator": "github:Nashorn/od-paginator#1.0.0",
+        "sweetalert": "^2.1.2"
+    },
+    "optionalDependencies": {
+        "od-plopgen-templates": "github:Nashorn/od-plopgen-templates#1.0.0",
+        "od-seam": "github:Nashorn/od-seam#1.0.0",
+        "od-server": "github:Nashorn/od-server#1.0.0",
+        "od-toolset": "github:Nashorn/od-toolset#1.0.0"
+    }
+}
